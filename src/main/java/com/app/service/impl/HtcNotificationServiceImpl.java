@@ -6,14 +6,14 @@ import org.springframework.stereotype.Component;
 import com.app.service.InotificationService;
 
 @Component
-@Profile("default")
-public class NotificationServiceImpl implements InotificationService {
+@Profile("htc")
+public class HtcNotificationServiceImpl implements InotificationService {
 
 	
 	@Override
 	public void notificate() {
 
-		System.out.println(" common for all ");
+		System.out.println(" only for htc for all ");
 	}
 
 }
